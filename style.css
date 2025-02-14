@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+
+}
+
+li{
+  padding-right: 10px;
+  padding-left: 10px;
+  border-right: solid white 1px;
+  display: inline;
+}
+body {
+
+  font-family: "Young Serif", serif;
+}
+
+.container {
+  padding: 10px;
+  text-align: center;
+}
+
+.reestar {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin: 0px;
+}
+
+.section-one,
+.section-two,
+.section-three,
+.section-four {
+  margin-top: 20px;
+}
+
+.section-one__desc,
+.section-two__desc,
+.section-three__desc,
+.section-four__desc {
+  margin-top: 10px;
+}
+
+.section-one,.section-two,.section-three,.section-four {
+
+  border: solid black 2px;
+  height: 300px;
+  width: 180px;
+  display: inline-block;
+
+}
+.section-one__img,.section-two__img,.section-three__img,.section-four__img{
+height: 150px;
+width: 180px;
+}
+.section-one__name,.section-two__name,.section-three__name,.section-four__name{
+  text-align: center;
+}
+.section-one__desc,.section-two__desc,.section-three__desc,.section-four__desc{
+  text-align: center;
+}
+.section-one__order,.section-two__order,.section-three__order,.section-four__order{
+  
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 10px 5px 10px 5px;
+  margin-top: 25px;
+ display: inline-block;
+ text-align: center;
+}
+
+.contact-form{
+
+  background-color: black;
+  color: white;
+  height: 200px;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center; 
+}
+
+.contact-form__table{
+  display: inline-block;
+  text-align: center;
+}
+
+.contact-form__input{
+
+  padding: 5px;
+  margin: 1px;  
+  border-bottom: solid black 1px;
+}
+
+
+.contact-form__send{
+
+  margin-top: 10px;
+ padding-top: 3px;
+ padding-bottom: 3px;
+ padding-left: 200px;
+ padding-right: 200px;
+  background-color: yellow;color: black;
+  display: inline-block;
+}
